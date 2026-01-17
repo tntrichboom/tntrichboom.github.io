@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "庄晓娟的Github主页"
 description              : "广东工业大学 电子信息工程 | 专注学习嵌入式开发 "
-repository               : "RayeRen/acad-homepage.github.io"
+repository               : "tntrichboom/tntrichboom.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "庄晓娟"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/man.jpg"
   bio              : "广东工业大学电子信息工程专业 2023级"
   location         : "Guangzhou, China"
   employer         : "广东工业大学信息工程学院"
