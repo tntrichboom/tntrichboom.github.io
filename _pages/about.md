@@ -17,42 +17,61 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# 庄晓娟 | 嵌入式系统开发方向
+广东工业大学 电子信息工程专业（2023级 本科）| GPA：4.1/5.0（专业前5%）
+求职意向：视源 嵌入式系统软件工程师（单片机方向 实习）| 随时到岗
+联系邮箱：3381896452@qq.com 
+联系电话：13729502026
+核心优势：精通C语言与STM32开发，具备「硬件设计→软件编码→调试优化」全流程能力，熟悉嵌入式分层架构与常用通信协议，2个STM32实战项目+1个硬件开发项目，适配智能硬件、单片机驱动开发场景。
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+# 🛠 专业技能
+## 编程与开发
+- 编程语言：精通C语言，能独立完成嵌入式软件「需求分析→代码实现→调试优化」全流程
+- 内核与外设：熟悉ARM Cortex-M系列内核开发，深入理解定时器、ADC、GPIO、RTC等外设配置
+- 系统设计：掌握嵌入式分层架构设计，实现驱动层与应用层解耦，提升代码可维护性
+
+## 驱动与协议
+- 通信协议：精通I2C、UART、SPI通信协议，能独立编写底层驱动并完成外设对接调试
+- 硬件驱动：熟悉MPU6050传感器、ESP32 WiFi模块、ST7735 LCD、PWM信号等硬件的驱动开发与适配
+
+## 工具与硬件
+- 开发工具：熟练使用Keil5 MDK（编译、调试、烧录）、Multisim电路仿真、示波器/万用表硬件调试
+- 硬件能力：具备手工焊接、电路原理图理解、元器件选型与适配能力，能排查焊接故障与硬件接口问题
+
+## 软实力
+- 文档能力：规范的技术文档撰写与项目总结能力，可清晰梳理开发流程与问题解决方案
+- 学习能力：快速适配新硬件平台，能独立查阅芯片手册（datasheet）解决技术问题
+- 团队协作：具备良好的沟通表达能力与协作意识，契合工程开发团队工作模式
+
+# 📌 项目经历（点击项目标题查看完整Keil代码）
+## 项目1：[基于 STM32 的多模块智能环境信息显示系统](https://github.com/tntrichboom/tntrichboom/tree/main/projects/01_环境信息显示系统)
+- 项目背景：家庭 / 办公场景环境感知需求，开发集成无线通信、传感器采集、彩色显示的智能终端系统
+- 开发工具：Keil5 MDK、STM32F103C8T6、ESP32 WiFi 模块、MPU6050 传感器、ST7735 LCD
+- 核心职责与实现：
+  1. 架构设计：采用「底层硬件层 - 驱动层 - 应用层」分层架构，完成 MPU6050（I2C）、ESP32（UART）、ST7735 LCD（SPI）模块适配；
+  2. 网络功能：实现 WiFi 自动连接、SNTP 网络时间同步（每 1 小时 1 次）、HTTP 天气数据请求与解析（每 10 分钟 1 次），解决 ESP32 5G 频段不兼容问题；
+  3. 数据处理：通过 MPU6050 采集环境温度（1 秒 1 次），完成数据滤波优化，实现时间、天气、温度的分区彩色显示；
+  4. 稳定性设计：添加故障反馈机制，模块初始化失败时 LCD 显示报错信息，保障系统可追溯性。
+
+# 📖 教育背景
+- *2023.09 - 2027.06 (在读)*, 广东工业大学信息工程学院电子信息工程专业，本科生
+- 主修课程：数字电子技术（96）、信息论基础（95）、微处理器与接口技术（95）、模拟电子技术（94）、信号与系统（93）、高级语言程序设计（85）、嵌入式系统设计与开发
+
+# 🎖 荣誉与证书
+- *2024.02* 英语四级证书（557 分）
+- *2024.08* 英语六级证书（558 分）
+- *2024.11* 国家励志奖学金
+- *2025.05* 第十六届蓝桥杯嵌入式赛道 省三等奖
+- *2025.11* 国家励志奖学金
+
+# ✍️ 自我评价
+- 专业匹配：电子信息工程专业核心课程扎实，3 个嵌入式实战项目覆盖「底层驱动、系统设计、硬件实现」；
+- 工程能力：具备独立开发、调试、优化的全流程工程能力，能快速定位并解决软硬件问题，；
+- 求职诚意：高度认可视源在智能硬件、嵌入式系统领域的技术沉淀，渴望以实习身份参与实际项目，从基础开发做起，快速成长为合格的嵌入式工程师；
+- 素养优势：踏实肯干、注重细节，具备良好的自学能力与文档查阅习惯，能快速适配团队开发节奏，为产品价值创造贡献力量。
 
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
-# 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
-
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
