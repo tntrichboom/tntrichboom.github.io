@@ -4,18 +4,18 @@ main:
     url: "/#about-me"
 
   - title: "专业技能"
-    url: "/#-skills"
+    url: "/#skills"
 
   - title: "项目经历"
-    url: "/#-projects"
+    url: "/#projects"
 
-  - title: "荣誉证书"
-    url: "/#-awards"
+  - title: "荣誉与证书"
+    url: "/#awards"
 
   - title: "教育背景"
-    url: "/#-educations"
+    url: "/#educations"
 
   - title: "自我评价"
-    url: "/#-self-eval"
+    url: "/#self-eval"
 
 
