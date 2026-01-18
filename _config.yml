@@ -23,12 +23,10 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "庄晓娟"
   avatar           : "images/man.jpg"
-  bio              : "广东工业大学电子信息工程专业 2023级"
-  location         : "Guangzhou, China"
-  employer         : "信息工程学院"
+  bio              : "悟已往之不谏，知来者之可追"
+  location         : "广东省广州市"
   pubmed           : 
   googlescholar    : 
-  email            : "3381896452@qq.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
