@@ -44,7 +44,7 @@ redirect_from:
 - 团队协作：具备良好的沟通表达能力与协作意识，契合工程开发团队工作模式
 
 # 📌 项目经历（点击项目标题查看完整Keil代码）
-## 项目1：[基于 STM32 的多模块智能环境信息显示系统](https://github.com/tntrichboom/tntrichboom/tree/main/projects/01_环境信息显示系统)
+## 项目1：[基于 STM32 的多模块智能环境信息显示系统](https://github.com/tntrichboom/tntrichboom.github.io/tree/main/projects/01_环境信息显示系统)
 - 项目背景：家庭 / 办公场景环境感知需求，开发集成无线通信、传感器采集、彩色显示的智能终端系统
 - 开发工具：Keil5 MDK、STM32F103C8T6、ESP32 WiFi 模块、MPU6050 传感器、ST7735 LCD
 - 核心职责与实现：
